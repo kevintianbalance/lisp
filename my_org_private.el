@@ -1,4 +1,4 @@
-\;; (setq org-agenda-files (list "~/org/OrgTutorial.org"))
+;; (setq org-agenda-files (list "~/org/OrgTutorial.org"))
 
 ;; ;;make it smaller to avoid crash
 ;; (custom-set-variables
@@ -107,86 +107,112 @@
 ;; 	 "* %?\n %i\n")
 ;; ))
 
+
+; |---+------------------------|
+; | b | Baby.txt               |
+; | B | Book.txt               |
+; | 1 | BookmarkAll.txt        |
+; | c | CRAN.txt               |
+; | 2 | CRAN.txt               |
+; | 2 | CRAN.txt               |
+; | 3 | Christianity.txt       |
+; | 4 | CloudRanDeployment.txt |
+; | 5 | Code.txt               |
+; | C | Communication.txt      |
+; | 7 | Contact.txt            |
+; | d | Development.txt        |
+; | D | Diagram.txt            |
+; | 8 | Diary.txt              |
+; | 9 | Digest.txt             |
+; | e | Emacs.txt              |
+; | E | English.txt            |
+; | 0 | eNBTest.txt            |
+; | f | FtGit.txt              |
+; | h | Health.txt             |
+; | j | Job.txt                |
+; | l | Living.txt             |
+; | m | Mail.txt               |
+; | M | Money.txt              |
+; | . | Movie.txt              |
+; | o | OrgMobile.txt          |
+; | p | People.txt             |
+; | P | Plan.txt               |
+; | s | Shopping.txt           |
+; | S | Study.txt              |
+; | t | ToDo.txt               |
+; | T | Tool.txt               |
+; | w | Wiki.txt               |
+; | W | Word.txt               |
+; |---+------------------------|
 (setq org-capture-templates
       '(
-	("1" "Perl.txt Todo" entry (file+headline "c:/KevinTian/Document/Perl.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("2" "Plan.txt Todo" entry (file+headline "c:/KevinTian/Document/Plan.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("3" "Terminology.txt Todo" entry (file+headline "c:/KevinTian/Document/Terminology.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("4" "Thinking.txt Todo" entry (file+headline "c:/KevinTian/Document/Thinking.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("5" "ToDo.txt Todo" entry (file+headline "c:/KevinTian/Document/ToDo.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("6" "Wiki.txt Todo" entry (file+headline "c:/KevinTian/Document/Wiki.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	;; ("7" "ENC.txt Todo" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/ENC.txt" "Z_CAPTURE_")
-	;;  "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("7" "eNBTest.txt Todo" entry (file+headline "c:/KevinTian/Document/eNBTest.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	;; ("8" "Calligraphy.txt Todo" entry (file+headline "c:/KevinTian/Document/Calligraphy.txt" "Z_CAPTURE_")
-	;;  "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("8" "CloudRanDeployment.txt Todo" entry (file+headline "c:/KevinTian/Document/CloudRanDeployment.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("9" "CRAN.txt Todo" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("." "CRAN.txt Todo" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_KeyTrace_")
-	 "* %?\n%T")
-	("," "CRAN.txt Todo" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Setup Cloud BJ")
-	 "* %?\n%T")
-	("e" "English.txt Todo" entry (file+headline "c:/KevinTian/Document/English.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("c" "Communication.txt Todo" entry (file+headline "c:/KevinTian/Document/Communication.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("t" "Tool.txt Todo" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("l" "Development.txt Todo" entry (file+headline "c:/KevinTian/Document/Development.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("f" "FtGit.txt Todo" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("h" "Health.txt Todo" entry (file+headline "c:/KevinTian/Document/Health.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("s" "Shopping.txt Todo" entry (file+headline "c:/KevinTian/Document/Shopping.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("g" "Living.txt Todo" entry (file+headline "c:/KevinTian/Document/Living.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("b" "Baby.txt Todo" entry (file+headline "c:/KevinTian/Document/Baby.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("u" "Study.txt Todo" entry (file+headline "c:/KevinTian/Document/Study.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("j" "Diary.txt Todo" entry (file+headline "t:/Diary.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("w" "Word.txt Todo" entry (file+headline "c:/KevinTian/Document/Word.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("m" "OrgMobile.txt Todo" entry (file+headline "c:/KevinTian/Document/OrgMobile.txt" "Z_CAPTURE_")
-         "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("n" "Contact.txt Todo" entry (file+headline "c:/KevinTian/Document/Contact.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("i" "Digest.txt Todo" entry (file+headline "c:/KevinTian/Document/Digest.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("m" "Emacs.txt Todo" entry (file+headline "c:/KevinTian/Document/Emacs.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("a" "Mail.txt Todo" entry (file+headline "c:/KevinTian/Document/Mail.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-;;;;;;;;;;;;;;;;;;;;;;; Above is Basic ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	("k" "Book.txt Todo" entry (file+headline "c:/KevinTian/Document/Book.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("o" "BookmarkAll.txt Todo" entry (file+headline "c:/KevinTian/Document/BookmarkAll.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("x" "Christianity.txt Todo" entry (file+headline "c:/KevinTian/Document/Christianity.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("d" "Code.txt Todo" entry (file+headline "c:/KevinTian/Document/Code.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("r" "Diagram.txt Todo" entry (file+headline "c:/KevinTian/Document/Diagram.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("j" "Job.txt Todo" entry (file+headline "c:/KevinTian/Document/Job.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("y" "Money.txt Todo" entry (file+headline "c:/KevinTian/Document/Money.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("v" "Movie.txt Todo" entry (file+headline "c:/KevinTian/Document/Movie.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
-	("p" "People.txt Todo" entry (file+headline "c:/KevinTian/Document/People.txt" "Z_CAPTURE_")
-	 "* TODO %<%Y_%m_%d_%H%M%S> %?\n%T")
+	("b" "Baby.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Baby.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("B" "Book.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Book.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("1" "BookmarkAll.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/BookmarkAll.txt" "Z_CAPTURE_")               
+	 "* TODO %?\n%T")                                                                                  
+	("c" "CRAN.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("2" "CRAN.txt Z_KeyTrace_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_KeyTrace_")                            
+	 "* %?\n%T")                                                                                                          
+	("3" "CRAN.txt Setup Cloud BJ_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Setup Cloud BJ")                         
+	 "* %?\n%T")                                                                                                          
+	("4" "Christianity.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Christianity.txt" "Z_CAPTURE_")             
+	 "* TODO %?\n%T")                                                                                  
+	("5" "CloudRanDeployment.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/CloudRanDeployment.txt" "Z_CAPTURE_") 
+	 "* TODO %?\n%T")                                                                                  
+	("6" "Code.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Code.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("C" "Communication.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Communication.txt" "Z_CAPTURE_")           
+	 "* TODO %?\n%T")                                                                                  
+	("7" "Contact.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Contact.txt" "Z_CAPTURE_")                       
+	 "* TODO %?\n%T")                                                                                  
+	("d" "Development.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Development.txt" "Z_CAPTURE_")               
+	 "* TODO %?\n%T")                                                                                  
+	("D" "Diagram.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Diagram.txt" "Z_CAPTURE_")                       
+	 "* TODO %?\n%T")                                                                                  
+	("8" "Diary.txt Z_CAPTURE_" entry (file+headline "t:/Diary.txt" "Z_CAPTURE_")                                              
+	 "* TODO %?\n%T")                                                                                  
+	("9" "Digest.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Digest.txt" "Z_CAPTURE_")                         
+	 "* TODO %?\n%T")                                                                                  
+	("e" "Emacs.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Emacs.txt" "Z_CAPTURE_")                           
+	 "* TODO %?\n%T")                                                                                  
+	("E" "English.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/English.txt" "Z_CAPTURE_")                       
+	 "* TODO %?\n%T")                                                                                  
+	("0" "ENBTest.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/eNBTest.txt" "Z_CAPTURE_")                       
+	 "* TODO %?\n%T")                                                                                  
+	("f" "FtGit.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "Z_CAPTURE_")           
+	 "* TODO %?\n%T")                                                                                  
+	("h" "Health.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Health.txt" "Z_CAPTURE_")                         
+	 "* TODO %?\n%T")                                                                                  
+	("j" "Job.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Job.txt" "Z_CAPTURE_")                               
+	 "* TODO %?\n%T")                                                                                  
+	("l" "Living.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Living.txt" "Z_CAPTURE_")                         
+	 "* TODO %?\n%T")                                                                                  
+	("m" "Mail.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Mail.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("M" "Money.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Money.txt" "Z_CAPTURE_")                           
+	 "* TODO %?\n%T")                                                                                  
+	("." "Movie.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Movie.txt" "Z_CAPTURE_")                           
+	 "* TODO %?\n%T")                                                                                  
+	("o" "OrgMobile.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/OrgMobile.txt" "Z_CAPTURE_")                   
+	 "* TODO %?\n%T")                                                                                  
+	("p" "People.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/People.txt" "Z_CAPTURE_")                         
+	 "* TODO %?\n%T")                                                                                  
+	("P" "Plan.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Plan.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("s" "Shopping.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Shopping.txt" "Z_CAPTURE_")                     
+	 "* TODO %?\n%T")                                                                                  
+	("S" "Study.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Study.txt" "Z_CAPTURE_")                           
+	 "* TODO %?\n%T")                                                                                  
+	("t" "ToDo.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/ToDo.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("T" "Tool.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "Z_CAPTURE_")             
+	 "* TODO %?\n%T")                                                                                  
+	("w" "Wiki.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Wiki.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
+	("W" "Word.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Word.txt" "Z_CAPTURE_")                             
+	 "* TODO %?\n%T")                                                                                  
 ))
 

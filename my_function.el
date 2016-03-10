@@ -119,7 +119,7 @@ that was stored with ska-point-to-register."
 ;; "****** %Y_%m_%d "
 (defun my-insert-subtitle ()
   (interactive)
-  (insert (format-time-string "****** %Y_%m_%d_%H%M%S " (current-time))))
+  (insert (format-time-string "****** \n<%Y-%m-%d %H:%M> " (current-time))))
 
 ;; 39.7 Parsing and Formatting Times
 
