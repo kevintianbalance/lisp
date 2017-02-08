@@ -2,15 +2,15 @@
 
 ;; ;;make it smaller to avoid crash
 ;; (custom-set-variables
-;;  '(org-agenda-files (quote ("c:/KevinTian/Document/Repo_/DocServer/ENC.txt" "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "c:/KevinTian/Document/Baby.txt" "c:/KevinTian/Document/Bash.txt" "c:/KevinTian/Document/Book.txt" "c:/KevinTian/Document/Calligraphy.txt" "c:/KevinTian/Document/Christianity.txt" "c:/KevinTian/Document/Code.txt" "c:/KevinTian/Document/Contact.txt" "c:/KevinTian/Document/Development.txt" "c:/KevinTian/Document/Digest.txt" "c:/KevinTian/Document/Emacs.txt" "c:/KevinTian/Document/English.txt" "c:/KevinTian/Document/Health.txt" "c:/KevinTian/Document/Job.txt" "c:/KevinTian/Document/Living.txt" "c:/KevinTian/Document/Mail.txt" "c:/KevinTian/Document/Money.txt" "c:/KevinTian/Document/Movie.txt" "c:/KevinTian/Document/OrgMobile.txt" "c:/KevinTian/Document/People.txt" "c:/KevinTian/Document/Perl.txt" "c:/KevinTian/Document/Plan.txt" "c:/KevinTian/Document/Shopping.txt" "c:/KevinTian/Document/Study.txt" "c:/KevinTian/Document/Terminology.txt" "c:/KevinTian/Document/Thinking.txt" "c:/KevinTian/Document/ToDo.txt" "c:/KevinTian/Document/Wiki.txt" "c:/KevinTian/Document/Word.txt" "c:/KevinTian/Document/Code.txt")))
+;;  '(org-agenda-files (quote ("/mnt/hgfs/KevinTian/Document/Repo_/DocServer/ENC.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/FtGit.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/Tool.org" "/mnt/hgfs/KevinTian/Document/Baby.org" "/mnt/hgfs/KevinTian/Document/Bash.org" "/mnt/hgfs/KevinTian/Document/Book.org" "/mnt/hgfs/KevinTian/Document/Calligraphy.org" "/mnt/hgfs/KevinTian/Document/Christianity.org" "/mnt/hgfs/KevinTian/Document/Code.org" "/mnt/hgfs/KevinTian/Document/Contact.org" "/mnt/hgfs/KevinTian/Document/Development.org" "/mnt/hgfs/KevinTian/Document/Digest.org" "/mnt/hgfs/KevinTian/Document/Emacs.org" "/mnt/hgfs/KevinTian/Document/English.org" "/mnt/hgfs/KevinTian/Document/Health.org" "/mnt/hgfs/KevinTian/Document/Job.org" "/mnt/hgfs/KevinTian/Document/Living.org" "/mnt/hgfs/KevinTian/Document/Mail.org" "/mnt/hgfs/KevinTian/Document/Money.org" "/mnt/hgfs/KevinTian/Document/Movie.org" "/mnt/hgfs/KevinTian/Document/OrgMobile.org" "/mnt/hgfs/KevinTian/Document/People.org" "/mnt/hgfs/KevinTian/Document/Perl.org" "/mnt/hgfs/KevinTian/Document/Plan.org" "/mnt/hgfs/KevinTian/Document/Shopping.org" "/mnt/hgfs/KevinTian/Document/Study.org" "/mnt/hgfs/KevinTian/Document/Terminology.org" "/mnt/hgfs/KevinTian/Document/Thinking.org" "/mnt/hgfs/KevinTian/Document/ToDo.org" "/mnt/hgfs/KevinTian/Document/Wiki.org" "/mnt/hgfs/KevinTian/Document/Word.org" "/mnt/hgfs/KevinTian/Document/Code.org")))
 ;; )
 
 (custom-set-variables
- '(org-agenda-files (quote ("c:/KevinTian/Document/Repo_/DocServer/ENC.txt" "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "c:/KevinTian/Document/Baby.txt" "c:/KevinTian/Document/English.txt" "c:/KevinTian/Document/Health.txt" "c:/KevinTian/Document/Job.txt" "c:/KevinTian/Document/Living.txt" "c:/KevinTian/Document/Plan.txt" "c:/KevinTian/Document/Shopping.txt" "c:/KevinTian/Document/Study.txt" "c:/KevinTian/Document/Terminology.txt" "c:/KevinTian/Document/Thinking.txt" "c:/KevinTian/Document/ToDo.txt" "c:/KevinTian/Document/Wiki.txt" "c:/KevinTian/Document/Word.txt" "c:/KevinTian/Document/Code.txt" "c:/KevinTian/Document/CRAN.txt")))
+ '(org-agenda-files (quote ("/mnt/hgfs/KevinTian/Document/Repo_/DocServer/ENC.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/FtGit.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/Tool.org" "/mnt/hgfs/KevinTian/Document/Baby.org" "/mnt/hgfs/KevinTian/Document/English.org" "/mnt/hgfs/KevinTian/Document/Health.org" "/mnt/hgfs/KevinTian/Document/Job.org" "/mnt/hgfs/KevinTian/Document/Living.org" "/mnt/hgfs/KevinTian/Document/Plan.org" "/mnt/hgfs/KevinTian/Document/Shopping.org" "/mnt/hgfs/KevinTian/Document/Study.org" "/mnt/hgfs/KevinTian/Document/Terminology.org" "/mnt/hgfs/KevinTian/Document/Thinking.org" "/mnt/hgfs/KevinTian/Document/ToDo.org" "/mnt/hgfs/KevinTian/Document/Wiki.org" "/mnt/hgfs/KevinTian/Document/Word.org" "/mnt/hgfs/KevinTian/Document/Code.org" "/mnt/hgfs/KevinTian/Document/CRAN.org")))
 )
 
 ;; (setq org-mobile-files (quote (
-;; 			       "c:/KevinTian/Document/Repo_/DocServer/ENC.txt" "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "c:/KevinTian/Document/Baby.txt" "c:/KevinTian/Document/Book.txt" "c:/KevinTian/Document/Calligraphy.txt" "c:/KevinTian/Document/Christianity.txt" "c:/KevinTian/Document/Contact.txt" "c:/KevinTian/Document/Development.txt" "c:/KevinTian/Document/ENC.txt" "c:/KevinTian/Document/Emacs.txt" "c:/KevinTian/Document/English.txt" "c:/KevinTian/Document/Health.txt" "c:/KevinTian/Document/Living.txt" "c:/KevinTian/Document/Mail.txt" "c:/KevinTian/Document/Money.txt" "c:/KevinTian/Document/Movie.txt" "c:/KevinTian/Document/OrgMobile.txt" "c:/KevinTian/Document/People.txt" "c:/KevinTian/Document/Perl.txt" "c:/KevinTian/Document/Plan.txt" "c:/KevinTian/Document/Shopping.txt" "c:/KevinTian/Document/Study.txt" "c:/KevinTian/Document/Terminology.txt" "c:/KevinTian/Document/Thinking.txt" "c:/KevinTian/Document/ToDo.txt" "c:/KevinTian/Document/Wiki.txt" "c:/KevinTian/Document/Word.txt" 
+;; 			       "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/ENC.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/FtGit.org" "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/Tool.org" "/mnt/hgfs/KevinTian/Document/Baby.org" "/mnt/hgfs/KevinTian/Document/Book.org" "/mnt/hgfs/KevinTian/Document/Calligraphy.org" "/mnt/hgfs/KevinTian/Document/Christianity.org" "/mnt/hgfs/KevinTian/Document/Contact.org" "/mnt/hgfs/KevinTian/Document/Development.org" "/mnt/hgfs/KevinTian/Document/ENC.org" "/mnt/hgfs/KevinTian/Document/Emacs.org" "/mnt/hgfs/KevinTian/Document/English.org" "/mnt/hgfs/KevinTian/Document/Health.org" "/mnt/hgfs/KevinTian/Document/Living.org" "/mnt/hgfs/KevinTian/Document/Mail.org" "/mnt/hgfs/KevinTian/Document/Money.org" "/mnt/hgfs/KevinTian/Document/Movie.org" "/mnt/hgfs/KevinTian/Document/OrgMobile.org" "/mnt/hgfs/KevinTian/Document/People.org" "/mnt/hgfs/KevinTian/Document/Perl.org" "/mnt/hgfs/KevinTian/Document/Plan.org" "/mnt/hgfs/KevinTian/Document/Shopping.org" "/mnt/hgfs/KevinTian/Document/Study.org" "/mnt/hgfs/KevinTian/Document/Terminology.org" "/mnt/hgfs/KevinTian/Document/Thinking.org" "/mnt/hgfs/KevinTian/Document/ToDo.org" "/mnt/hgfs/KevinTian/Document/Wiki.org" "/mnt/hgfs/KevinTian/Document/Word.org" 
 ;; 			       )))
 
 
@@ -38,23 +38,24 @@
 	("@@@@@" . ?5)
 	("@@@@@@" . ?6)
 	("@BackHome" . ?b)
+	("export" . ?e)
 	("noexport" . ?n)
-	("@16Week05" . nil) 
-	("@16Week06" . nil) 
-	("@16Week07" . nil) 
-	("@16Week08" . nil) 
-	("@16Week09" . nil) 
-	("@16Week10" . nil) 
-	("@16Week11" . nil) 
-	("@16Week12" . nil) 
-	("@16Week13" . nil) 
-	("@16Week14" . nil) 
 	("@2016Jan" . nil)
 	("@2016Feb" . nil)
 	("@2016Mar" . nil)
 	("@2016Apr" . nil)
 	("@2016May" . nil)
 	("@2016Jun" . nil)
+	("@16Week21" . nil) 
+	("@16Week22" . nil) 
+	("@16Week23" . nil) 
+	("@16Week24" . nil) 
+	("@16Week25" . nil) 
+	("@16Week26" . nil) 
+	("@16Week27" . nil) 
+	("@16Week28" . nil) 
+	("@16Week29" . nil) 
+	("@16Week30" . nil) 
 	)
       )
 
@@ -85,134 +86,136 @@
 ;; ;; Content: replaced with new template 
 ;; (setq org-capture-templates
 ;;       '(
-;; 	("e" "ENC.txt Todo" entry (file+headline "c:/KevinTian/Document/DocServer/ENC.txt" "Z_CAPTURE_")
+;; 	("e" "ENC.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/DocServer/ENC.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("t" "Tool.txt Todo" entry (file+headline "c:/KevinTian/Document/DocServer/Tool.txt" "Z_CAPTURE_")
+;; 	("t" "Tool.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/DocServer/Tool.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("h" "Health.txt Todo" entry (file+headline "c:/KevinTian/Document/Health.txt" "Z_CAPTURE_")
+;; 	("h" "Health.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Health.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %<%Y-%m-%d>">)
-;; 	("s" "Shopping.txt Todo" entry (file+headline "c:/KevinTian/Document/Shopping.txt" "Z_CAPTURE_")
+;; 	("s" "Shopping.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Shopping.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("l" "Living.txt Todo" entry (file+headline "c:/KevinTian/Document/Living.txt" "Z_CAPTURE_")
+;; 	("l" "Living.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Living.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("b" "Baby.txt Todo" entry (file+headline "c:/KevinTian/Document/Baby.txt" "Z_CAPTURE_")
+;; 	("b" "Baby.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Baby.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("d" "Study.txt Todo" entry (file+headline "c:/KevinTian/Document/Study.txt" "Z_CAPTURE_")
+;; 	("d" "Study.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Study.org" "Z_CAPTURE_")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("j" "Diary.txt Todo" entry (file+headline "t:/Diary.txt" "Daily Diary")
+;; 	("j" "Diary.org Todo" entry (file+headline "t:/Diary.org" "Daily Diary")
 ;; 	 "* TODO %?\n %i\n %a")
-;; 	("w" "Word.txt Todo" entry (file+headline "c:/KevinTian/Document/Word.txt" "Z_CAPTURE_")
+;; 	("w" "Word.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/Word.org" "Z_CAPTURE_")
 ;; 	 "* %?\n %i\n")
-;; 	("m" "OrgMobile.txt Todo" entry (file+headline "c:/KevinTian/Document/OrgMobile.txt" "Z_CAPTURE_")
+;; 	("m" "OrgMobile.org Todo" entry (file+headline "/mnt/hgfs/KevinTian/Document/OrgMobile.org" "Z_CAPTURE_")
 ;; 	 "* %?\n %i\n")
 ;; ))
 
 
 ; |---+------------------------|
-; | b | Baby.txt               |
-; | B | Book.txt               |
-; | 1 | BookmarkAll.txt        |
-; | c | CRAN.txt               |
-; | 2 | CRAN.txt               |
-; | 2 | CRAN.txt               |
-; | 3 | Christianity.txt       |
-; | 4 | CloudRanDeployment.txt |
-; | 5 | Code.txt               |
-; | C | Communication.txt      |
-; | 7 | Contact.txt            |
-; | d | Development.txt        |
-; | D | Diagram.txt            |
-; | 8 | Diary.txt              |
-; | 9 | Digest.txt             |
-; | e | Emacs.txt              |
-; | E | English.txt            |
-; | 0 | eNBTest.txt            |
-; | f | FtGit.txt              |
-; | h | Health.txt             |
-; | j | Job.txt                |
-; | l | Living.txt             |
-; | m | Mail.txt               |
-; | M | Money.txt              |
-; | . | Movie.txt              |
-; | o | OrgMobile.txt          |
-; | p | People.txt             |
-; | P | Plan.txt               |
-; | s | Shopping.txt           |
-; | S | Study.txt              |
-; | t | ToDo.txt               |
-; | T | Tool.txt               |
-; | w | Wiki.txt               |
-; | W | Word.txt               |
+; | b | Baby.org               |
+; | B | Book.org               |
+; | 1 | BookmarkAll.org        |
+; | c | CRAN.org               |
+; | 2 | CRAN.org               |
+; | 2 | CRAN.org               |
+; | 3 | Christianity.org       |
+; | 4 | CloudRanDeployment.org |
+; | 5 | Code.org               |
+; | C | Communication.org      |
+; | 7 | Contact.org            |
+; | d | Development.org        |
+; | D | Diagram.org            |
+; | 8 | Diary.org              |
+; | 9 | Digest.org             |
+; | e | Emacs.org              |
+; | E | English.org            |
+; | 0 | eNBTest.org            |
+; | f | FtGit.org              |
+; | h | Health.org             |
+; | j | Job.org                |
+; | l | Living.org             |
+; | m | Mail.org               |
+; | M | Money.org              |
+; | . | Movie.org              |
+; | o | OrgMobile.org          |
+; | p | People.org             |
+; | P | Plan.org               |
+; | s | Shopping.org           |
+; | S | Study.org              |
+; | t | ToDo.org               |
+; | T | Tool.org               |
+; | w | Wiki.org               |
+; | W | Word.org               |
 ; |---+------------------------|
 (setq org-capture-templates
       '(
-	("b" "Baby.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Baby.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("B" "Book.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Book.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("1" "BookmarkAll.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/BookmarkAll.txt" "Z_CAPTURE_")               
-	 "* TODO %?\n%T")                                                                                  
-	("c" "CRAN.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("2" "CRAN.txt Z_KeyTrace_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Z_KeyTrace_")                            
+	("b" "Baby.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Baby.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("B" "Book.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Book.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("1" "BookmarkAll.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/BookmarkAll.org" "Z_CAPTURE_")               
+	 "* %?\n%T")                                                                                  
+	("c" "CRAN.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/CRAN.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("2" "CRAN.org Z_KeyTrace_" entry (file+headline "/mnt/hgfs/KevinTian/Document/CRAN.org" "Z_KeyTrace_")                            
 	 "* %?\n%T")                                                                                                          
-	("3" "CRAN.txt Setup Cloud BJ_" entry (file+headline "c:/KevinTian/Document/CRAN.txt" "Setup Cloud BJ")                         
+	("3" "CRAN.org Setup Cloud BJ_" entry (file+headline "/mnt/hgfs/KevinTian/Document/CRAN.org" "Setup Cloud BJ")                         
 	 "* %?\n%T")                                                                                                          
-	("4" "Christianity.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Christianity.txt" "Z_CAPTURE_")             
-	 "* TODO %?\n%T")                                                                                  
-	("5" "CloudRanDeployment.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/CloudRanDeployment.txt" "Z_CAPTURE_") 
-	 "* TODO %?\n%T")                                                                                  
-	("6" "Code.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Code.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("C" "Communication.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Communication.txt" "Z_CAPTURE_")           
-	 "* TODO %?\n%T")                                                                                  
-	("7" "Contact.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Contact.txt" "Z_CAPTURE_")                       
-	 "* TODO %?\n%T")                                                                                  
-	("d" "Development.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Development.txt" "Z_CAPTURE_")               
-	 "* TODO %?\n%T")                                                                                  
-	("D" "Diagram.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Diagram.txt" "Z_CAPTURE_")                       
-	 "* TODO %?\n%T")                                                                                  
-	("8" "Diary.txt Z_CAPTURE_" entry (file+headline "t:/Diary.txt" "Z_CAPTURE_")                                              
-	 "* TODO %?\n%T")                                                                                  
-	("9" "Digest.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Digest.txt" "Z_CAPTURE_")                         
-	 "* TODO %?\n%T")                                                                                  
-	("e" "Emacs.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Emacs.txt" "Z_CAPTURE_")                           
-	 "* TODO %?\n%T")                                                                                  
-	("E" "English.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/English.txt" "Z_CAPTURE_")                       
-	 "* TODO %?\n%T")                                                                                  
-	("0" "ENBTest.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/eNBTest.txt" "Z_CAPTURE_")                       
-	 "* TODO %?\n%T")                                                                                  
-	("f" "FtGit.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/FtGit.txt" "Z_CAPTURE_")           
-	 "* TODO %?\n%T")                                                                                  
-	("h" "Health.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Health.txt" "Z_CAPTURE_")                         
-	 "* TODO %?\n%T")                                                                                  
-	("j" "Job.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Job.txt" "Z_CAPTURE_")                               
-	 "* TODO %?\n%T")                                                                                  
-	("l" "Living.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Living.txt" "Z_CAPTURE_")                         
-	 "* TODO %?\n%T")                                                                                  
-	("m" "Mail.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Mail.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("M" "Money.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Money.txt" "Z_CAPTURE_")                           
-	 "* TODO %?\n%T")                                                                                  
-	("." "Movie.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Movie.txt" "Z_CAPTURE_")                           
-	 "* TODO %?\n%T")                                                                                  
-	("o" "OrgMobile.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/OrgMobile.txt" "Z_CAPTURE_")                   
-	 "* TODO %?\n%T")                                                                                  
-	("p" "People.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/People.txt" "Z_CAPTURE_")                         
-	 "* TODO %?\n%T")                                                                                  
-	("P" "Plan.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Plan.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("s" "Shopping.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Shopping.txt" "Z_CAPTURE_")                     
-	 "* TODO %?\n%T")                                                                                  
-	("S" "Study.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Study.txt" "Z_CAPTURE_")                           
-	 "* TODO %?\n%T")                                                                                  
-	("t" "ToDo.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/ToDo.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("T" "Tool.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Repo_/DocServer/Tool.txt" "Z_CAPTURE_")             
-	 "* TODO %?\n%T")                                                                                  
-	("w" "Wiki.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Wiki.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
-	("W" "Word.txt Z_CAPTURE_" entry (file+headline "c:/KevinTian/Document/Word.txt" "Z_CAPTURE_")                             
-	 "* TODO %?\n%T")                                                                                  
+	("4" "Christianity.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Christianity.org" "Z_CAPTURE_")             
+	 "* %?\n%T")                                                                                  
+	("5" "CloudRanDeployment.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/CloudRanDeployment.org" "Z_CAPTURE_") 
+	 "* %?\n%T")                                                                                  
+	("6" "Code.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Code.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("C" "Communication.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Communication.org" "Z_CAPTURE_")           
+	 "* %?\n%T")                                                                                  
+	("7" "Contact.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Contact.org" "Z_CAPTURE_")                       
+	 "* %?\n%T")                                                                                  
+	("d" "Development.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Development.org" "Z_CAPTURE_")               
+	 "* %?\n%T")                                                                                  
+	("D" "Diagram.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Diagram.org" "Z_CAPTURE_")                       
+	 "* %?\n%T")                                                                                  
+	("8" "Diary.org Z_CAPTURE_" entry (file+headline "t:/Diary.org" "Z_CAPTURE_")                                              
+	 "* %?\n%T")                                                                                  
+	("9" "Digest.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Digest.org" "Z_CAPTURE_")                         
+	 "* %?\n%T")                                                                                  
+	("e" "Emacs.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Emacs.org" "Z_CAPTURE_")                           
+	 "* %?\n%T")                                                                                  
+	("E" "English.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/English.org" "Z_CAPTURE_")                       
+	 "* %?\n%T")                                                                                  
+	("0" "ENBTest.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/eNBTest.org" "Z_CAPTURE_")                       
+	 "* %?\n%T")                                                                                  
+	("f" "FtGit.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/FtGit.org" "Z_CAPTURE_")           
+	 "* %?\n%T")                                                                                  
+	("h" "Health.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Health.org" "Z_CAPTURE_")                         
+	 "* %?\n%T")                                                                                  
+	("j" "Job.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Job.org" "Z_CAPTURE_")                               
+	 "* %?\n%T")                                                                                  
+	("l" "Living.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Living.org" "Z_CAPTURE_")                         
+	 "* %?\n%T")                                                                                  
+	("m" "Mail.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Mail.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("M" "Money.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Money.org" "Z_CAPTURE_")                           
+	 "* %?\n%T")                                                                                  
+	("." "Movie.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Movie.org" "Z_CAPTURE_")                           
+	 "* %?\n%T")                                                                                  
+	("," "Music.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Music.org" "Z_CAPTURE_")                           
+	 "* %?\n%T")                                                                                  
+	("o" "OrgMobile.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/OrgMobile.org" "Z_CAPTURE_")                   
+	 "* %?\n%T")                                                                                  
+	("p" "People.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/People.org" "Z_CAPTURE_")                         
+	 "* %?\n%T")                                                                                  
+	("P" "Plan.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Plan.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("s" "Shopping.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Shopping.org" "Z_CAPTURE_")                     
+	 "* %?\n%T")                                                                                  
+	("S" "Study.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Study.org" "Z_CAPTURE_")                           
+	 "* %?\n%T")                                                                                  
+	("t" "ToDo.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/ToDo.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("T" "Tool.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Repo_/DocServer/Tool.org" "Z_CAPTURE_")             
+	 "* %?\n%T")                                                                                  
+	("w" "Wiki.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Wiki.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
+	("W" "Word.org Z_CAPTURE_" entry (file+headline "/mnt/hgfs/KevinTian/Document/Word.org" "Z_CAPTURE_")                             
+	 "* %?\n%T")                                                                                  
 ))
 

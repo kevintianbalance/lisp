@@ -226,6 +226,7 @@
 
 ;; 2013_07_23
 (global-set-key [f3] 'my-switch-to-note-other-window)
+(global-set-key (kbd "<C-f3>") 'my-switch-to-note-shortcut-other-window)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Visible Bookmarks

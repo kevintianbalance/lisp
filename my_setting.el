@@ -24,9 +24,10 @@
    ("gnus" . emacs-lisp-mode)
    ("\\.idl$" . idl-mode)
 ;;   ("\\.txt$" . outline-mode) ;;kevin: added
-   ("\\.txt$" . org-mode) ;;kevin: added
+   ("\\.txt$" .  text-mode) ;;kevin: added
    ("\\.muse$" . org-mode) ;;kevin: added
    ("\\.log$" . text-mode) ;;kevin: added
+   ("\\.org$" . org-mode) ;;kevin: added
 ))
 
 

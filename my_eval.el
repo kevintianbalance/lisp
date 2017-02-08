@@ -1,3 +1,41 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Here's how to set specific browser to open links. Put in your emacs init.
+;; works
+(setq browse-url-browser-function 'browse-url-generic
+      browse-url-generic-program "google-chrome")
+
+;; NOT work
+;; set specific browser to open links
+;; (setq browse-url-browser-function 'browse-url-firefox)
+;; (setq browse-url-browser-function 'browse-url-chromium) ; google's browser
+;; (setq browse-url-browser-function 'eww-browse-url) ; emacs browser
+
+;; You can also set up a regex list to open specific browser depending on URL.
+;; use browser depending on url
+;; (setq
+;;  browse-url-browser-function
+;;  '(
+;;    ("wikipedia\\.org" . browse-url-firefox)
+;;    ("github" . browse-url-chromium)
+;;    ("thefreedictionary\\.com" . eww-browse-url)
+;;    ("." . browse-url-default-browser)
+;;    ))
+
+
+;; (defun browse-url (url &rest args)
+;;   "Browse url using outer browser"
+;;   (interactive (browse-url-interactive-arg "URL: "))
+;;   (call-process "open" nil nil nil url))
+
+;; (defun my-org-open-at-point (&optional arg)
+;;   (interactive "P")
+;;   (if (not arg)
+;;       (org-open-at-point)
+;;     (let ((browse-url-browser-function 'browse-url-chromium))
+;;       (org-open-at-point))))
+;; ;; and binding it to C-c C-o:
+
+;; (define-key org-mode-map (kbd "C-c C-o") 'my-org-open-at-point)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;2009_06_08 set emms & mpg123
@@ -138,11 +176,12 @@
 ;; set-mark-command-repeat-pop to non-nil
 (setq mark-command-repeat-pop t)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; multi-term, //Kevin Tian: conflict with windows
-(add-to-list 'load-path "~/elisp/")
-(require 'multi-term)
-(setq multi-term-program (concat CYGWIN_ROOT "/bin/bash.exe"));
+;; removed for ubuntu
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ;; multi-term, //Kevin Tian: conflict with windows
+;; (add-to-list 'load-path "~/elisp/")
+;; (require 'multi-term)
+;; (setq multi-term-program (concat CYGWIN_ROOT "/bin/bash.exe"));
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; news server
@@ -684,15 +723,17 @@ indent yanked text (with prefix arg don't indent)."
 
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; iSpell set path
-(setq-default
- ispell-program-name
- "~/bin/Aspell/bin/aspell.exe")
+;; removed for ubuntu
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ;; iSpell set path
+;; (setq-default
+;;  ispell-program-name
+;;  "~/bin/Aspell/bin/aspell.exe")
 
+;; removed for ubuntu
 ;; 
-(load "auctex.el" nil t t)
-(require 'tex-mik)
+;; (load "auctex.el" nil t t)
+;; (require 'tex-mik)
 
 ;;          Customary Customization
 ;;          To edit LaTeX documents, you will probably want to include the following in your ~/.emacs.
@@ -712,8 +753,9 @@ indent yanked text (with prefix arg don't indent)."
 (setq preview-image-type 'pnm)
 
 
-;; ~/elisp/cdlatex.el install seperately
-(add-hook 'org-mode-hook 'turn-on-org-cdlatex)
+;; removed for ubuntu
+;; ;; ~/elisp/cdlatex.el install seperately
+;; (add-hook 'org-mode-hook 'turn-on-org-cdlatex)
 
 ;; 2012_05_28
 ;; (setq org-export-exclude-tags UNEXPORT)
@@ -739,9 +781,9 @@ indent yanked text (with prefix arg don't indent)."
 ;; 						 '("-o" "http_proxy=http://iproxy-sh.cn.ao.ericsson.se:8080/")))
 
 
-(setq w3m-command-arguments
-			(nconc w3m-command-arguments
-						 '("-o" "http_proxy=http://www-proxy.ericsson.se:8080/")))
+;; (setq w3m-command-arguments
+;; 			(nconc w3m-command-arguments
+;; 						 '("-o" "http_proxy=http://www-proxy.ericsson.se:8080/")))
 
 ;; ;; could not use
 ;; (setq w3m-command-arguments
@@ -1037,11 +1079,12 @@ indent yanked text (with prefix arg don't indent)."
 ;; set-mark-command-repeat-pop to non-nil
 (setq mark-command-repeat-pop t)
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; multi-term, //Kevin Tian: conflict with windows
-(add-to-list 'load-path "~/elisp/")
-(require 'multi-term)
-(setq multi-term-program (concat CYGWIN_ROOT "/bin/bash.exe"));
+;; removed for ubuntu
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ;; multi-term, //Kevin Tian: conflict with windows
+;; (add-to-list 'load-path "~/elisp/")
+;; (require 'multi-term)
+;; (setq multi-term-program (concat CYGWIN_ROOT "/bin/bash.exe"));
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; news server
@@ -1516,12 +1559,13 @@ indent yanked text (with prefix arg don't indent)."
 
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; magit
-;; 2013_06_06
-(require 'cl-lib)
-(add-to-list 'load-path "~/elisp/magit-master/")
-(require 'magit)
+;; removed for ubuntu
+;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ;; magit
+;; ;; 2013_06_06
+;; (require 'cl-lib)
+;; (add-to-list 'load-path "~/elisp/magit-master/")
+;; (require 'magit)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Visible Bookmarks
@@ -1871,5 +1915,25 @@ indent yanked text (with prefix arg don't indent)."
 (define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebind tab to run persistent action
 (define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB works in terminal
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
+
+(global-set-key (kbd "M-x") #'helm-M-x)
+(global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f") #'helm-find-files)
+
 (helm-mode 1)
+
+;; added for ubuntu
+;; 2016_12_12_013039
+;; ispell set to hunspell
+;; It works!  It works!  After two hours of slogging, it works!
+(if (file-exists-p "/usr/bin/hunspell")
+    (progn
+      (setq ispell-program-name "hunspell")
+      (eval-after-load "ispell"
+        '(progn (defun ispell-get-coding-system () 'utf-8)))))
+
+;; helm-swoop
+(setq load-path (append load-path (list "~/elisp/helm-swoop-1.7.2/")))
+(require 'helm-swoop)
+
 

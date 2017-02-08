@@ -9,6 +9,8 @@
 ;; (setq load-path (append load-path (list "~/elisp/org-7.9.3d/lisp/")))
 ;; (setq load-path (append load-path (list "~/elisp/org-8.2.6/lisp/")))
 (setq load-path (append load-path (list "~/elisp/org-8.2.8/lisp/")))
+;; 8.3.4 have conflict with org-export to wiki
+;; (setq load-path (append load-path (list "~/elisp/org-8.3.4/lisp/")))
 
 (require 'org-install) ;; could not load file
 
@@ -289,3 +291,6 @@
 (defadvice org-html-checkbox (around sacha activate)
   (setq ad-return-value (sacha/org-html-checkbox (ad-get-arg 0))))
 
+;;;;;;
+;; avoid wrap break when export html!
+(setq org-export-preserve-breaks t)

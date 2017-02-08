@@ -12,7 +12,8 @@
 ;;(global-font-lock-mode nil)
 (global-font-lock-mode t)
 
-(setq auto-save-interval 300)
+;; auto-save will cause halt for a while, enlarge the time to 30 minutes.                                                                                                                
+(setq auto-save-interval 1800)    
 
 (setq case-fold-search nil)
 
@@ -124,5 +125,7 @@
 ;; 70 -> 60 2014_11_25_205522
 ;; 60 -> 58 2015_06_04_173502
 ;; wechat
-(setq-default fill-column 57)
+;; (setq-default fill-column 57)
+(setq-default fill-column 47)
+
 ;; (setq-default fill-column 36)
