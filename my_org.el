@@ -1,6 +1,4 @@
 
-(load "my_org_private")
-
 ;;;;;;;;;;;;;;;;;;;;
 ;; set org-mode
 ;; //Kevin Tian: should firstly delete old version org.el in C:\emacs-22.2\lisp\textmodes
@@ -204,18 +202,6 @@
 (require 'org-tree-slide)
 ;; (org-tree-slide-simple-profile))
 (org-tree-slide-presentation-profile)
-
-;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; ;; Org-Pomodoro
-;; ;; @@@@@@
-;; (require 'alert)
-;; (alert-install-aliases)
-
-;; (add-to-list 'load-path "~/elisp/org-pomodoro/")
-(add-to-list 'load-path "~/elisp/org-pomodoro-2.1.0/")
-(require 'org-pomodoro)
-
-(setq org-pomodoro-length 60)
 
 
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
