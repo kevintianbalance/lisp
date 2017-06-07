@@ -1,3 +1,4 @@
+
 (load "my_org_private")
 
 ;;;;;;;;;;;;;;;;;;;;
@@ -207,14 +208,14 @@
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; ;; Org-Pomodoro
 ;; ;; @@@@@@
-(require 'alert)
-(alert-install-aliases)
+;; (require 'alert)
+;; (alert-install-aliases)
 
-(add-to-list 'load-path "~/elisp/org-pomodoro/")
-
+;; (add-to-list 'load-path "~/elisp/org-pomodoro/")
+(add-to-list 'load-path "~/elisp/org-pomodoro-2.1.0/")
 (require 'org-pomodoro)
 
-(setq org-pomodoro-length 40)
+(setq org-pomodoro-length 60)
 
 
 ;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

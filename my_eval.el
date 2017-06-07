@@ -1937,3 +1937,18 @@ indent yanked text (with prefix arg don't indent)."
 (require 'helm-swoop)
 
 
+;; Emacs macro to add a pomodoro item
+(fset 'pomodoro
+      "[ ]")
+
+;; Emacs macro to add a pomodoro table
+;;
+;; | G | Organization | [ ] |
+;; |   |              |     |
+(fset 'pomodoro-table
+      [?| ?  ?G ?  ?| ?  ?O ?r ?g ?a ?n ?i ?z ?a ?t ?i ?o ?n ?  ?| ?  ?\[ ?  ?\] ?  ?| tab])
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; open with
+(require 'openwith)
+(openwith-mode t)
