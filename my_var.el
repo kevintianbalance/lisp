@@ -1,4 +1,10 @@
 
+;;Make sure spaces are used when indenting code
+(setq indent-tabs-mode nil)
+
+;; truncate-lines
+;; (setq truncate-lines t) ;; should use scroll bar to see the long string
+(setq truncate-lines nil) ;; wrapper the lines to show in the window
 
 ;; set default mode
 ;; (setq default-major-mode 'outline-mode)
@@ -98,8 +104,6 @@
 ;; 为什么不能像Windows下编辑器那样, 高亮显示要拷贝的区域
 (transient-mark-mode t)
 
-;; 不要那个如此大的工具条
-(tool-bar-mode -1)
 
 ;; 是否生成临时文件
 
@@ -109,13 +113,6 @@
 ;;Turn on font-lock mode to color text in certain modes
 (global-font-lock-mode t)
 
-;; 变量 default-buffer-file-coding-system 指定了创建新文件时的编码系统。当打开新文件、创建缓冲区并保存为文件的时候将应用它。设置语言环境通常会设置这个变量为合适的默认值。
-;; Kevin: Deleted for it conflict with CVS control
-;;(setq default-buffer-file-coding-system 'mule-utf-16-dos)
-;; Kevin: Still do not support Traditional Chinese 
-;; Kevin: chinese-iso-8bit-dos will be good for *.bat
-;; and mule-utf-8-dos will also not recognized in *sh
-(setq default-buffer-file-coding-system 'mule-utf-8-dos)
 
 
 
