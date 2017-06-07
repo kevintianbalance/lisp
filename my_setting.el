@@ -85,3 +85,6 @@
 ;; (toggle-truncate-lines)
 
 (add-hook 'emacs-lisp-mode-hook 'abbrev-mode)
+
+;; font copy from Zhao Fengyang
+(global-font-lock-mode t)

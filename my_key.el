@@ -97,8 +97,9 @@
 (global-set-key "\C-cn" 'flyspell-goto-next-error)
 
 (global-set-key "\C-ca" 'appt-delete)
+;; confilict with (local-set-key "\C-c" 'semantic-ia-complete-symbol-menu)
 
-(global-set-key "\C-cm" 'muse-project-publish)
+;; (global-set-key "\C-cm" 'muse-project-publish)
 ;; 2010_04_08 kill-buffer-and-window, without prompt
 (global-set-key "\C-ck" 'kill-buffer-and-window)
 
@@ -195,6 +196,8 @@
 ;;;;;;;;;;;;;;;;;;;;
 ;; f5 for 'highlight-symbol-at-point
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; highlight-symbol
 ;; (global-set-key [(control f3)] 'highlight-symbol-at-point)
 ;; (global-set-key [(shift f8)] 'highlight-symbol-at-point)
 (global-set-key [f5] 'highlight-symbol-at-point)
@@ -248,3 +251,22 @@
 
 ;; comment-region
 (global-set-key (kbd "C-'") 'comment-region)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; beginning-of-function 
+;; 2011_03_09
+(global-set-key [f9] 'beginning-of-defun)
+
+;;;;;;;;;;;;;;;;;;;;;;
+;; c++-mode
+;; (global-set-key [f12] 'org-mode)
+
+;;;;;;;;;;;;;;;;;;;;;;
+;; 2011_06_21
+;; my-read-comment
+;; (global-set-key [f10] 'my-read-comment)
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;; 2011_12_04
+;; cscope-find-this-file
+(global-set-key "\C-c0" 'cscope-find-this-file)

@@ -1,8 +1,14 @@
 
+;;Make sure spaces are used when indenting code
+(setq indent-tabs-mode nil)
+
+;; truncate-lines
+;; (setq truncate-lines t) ;; should use scroll bar to see the long string
+(setq truncate-lines nil) ;; wrapper the lines to show in the window
 
 ;; set default mode
 ;; (setq default-major-mode 'outline-mode)
-(setq default-major-mode 'text-mode)
+;; (setq default-major-mode 'c++-mode)
 
 ;;close blink cursor, it seems nil not take effect
 (setq blink-cursor-mode nil)
@@ -45,8 +51,8 @@
 (auto-image-file-mode t)
 
 ;;设置有用的个人信息。这在很多地方有用。
-(setq user-full-name "Kevin Tian")
-(setq user-mail-address "kevin.tian.balance@gmail.com")
+(setq user-full-name "Tian Chen")
+(setq user-mail-address "kevin.tian.balance@163.com")
 
 ;; 每当设置书签的时候都保存书签文件，否则只在你退出 Emacs 时保存。
 (setq bookmark-save-flag 1)
@@ -99,7 +105,8 @@
 (transient-mark-mode t)
 
 ;; 不要那个如此大的工具条
-(tool-bar-mode -1)
+;; delete 2010_10_29, not support in Linux
+;; (tool-bar-mode -1)
 
 ;; 是否生成临时文件
 
@@ -113,30 +120,8 @@
 ;; Kevin: Deleted for it conflict with CVS control
 ;;(setq default-buffer-file-coding-system 'mule-utf-16-dos)
 ;; Kevin: Still do not support Traditional Chinese 
-;; Kevin: chinese-iso-8bit-dos will be good for *.bat
-;; and mule-utf-8-dos will also not recognized in *sh
-(setq default-buffer-file-coding-system 'mule-utf-8-dos)
+;; Kevin Tian: comment out for linux system, may affect *.sh
+;; (setq default-buffer-file-coding-system 'mule-utf-8-dos)
 
 
 
-;;;;
-;; for muse contents of table depth is enlarged to 9 from 2
-(setq-default muse-publish-contents-depth 9)
-;; If a link to a locally-available image is encountered in the link description, Muse mode will
-;; attempt to display it if your version of Emacs permits this.
-(setq-default muse-colors-inline-images t)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; close org auto fill comments
-(setq comment-start nil)
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; width for auto-fill-mode
-;; 70 -> 60 2014_11_25_205522
-;; 60 -> 58 2015_06_04_173502
-;; wechat
-;; (setq-default fill-column 57)
-(setq-default fill-column 47)
-
-;; (setq-default fill-column 36)

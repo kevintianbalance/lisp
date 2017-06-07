@@ -144,3 +144,7 @@
 ;; (require 'recent-jump)
 
 (setq current-language-environment 'English)
+
+;; (set-default-font "9x15")
+(set-default-font "4x7")
+
