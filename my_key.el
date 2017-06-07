@@ -246,11 +246,11 @@
 
 ;; 2016_01_17_151207
 ;; for formating org text  ---- :@@@@@@:
-;; (global-set-key [(control tab)] 'string-insert-rectangle)
-(global-set-key (kbd "C-/") 'string-insert-rectangle)
 
-;; comment-region
-(global-set-key (kbd "C-'") 'comment-region)
+;; (global-set-key [(control tab)] 'string-insert-rectangle)
+;; not work inside terminator
+;; (global-set-key (kbd "C-/") 'string-insert-rectangle)
+(global-set-key (kbd "C-c /") 'string-insert-rectangle)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; beginning-of-function 
