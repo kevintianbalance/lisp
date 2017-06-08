@@ -255,7 +255,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; beginning-of-function 
 ;; 2011_03_09
-(global-set-key [f9] 'beginning-of-defun)
+;; (global-set-key [f9] 'beginning-of-defun)
 
 ;;;;;;;;;;;;;;;;;;;;;;
 ;; c++-mode
