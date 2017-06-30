@@ -100,9 +100,10 @@ that was stored with ska-point-to-register."
 (defun my-add-code()
   (interactive)
 ;;   (insert (format-time-string "    //Kevin Tian: BEGIN, Sprint16A S1 MultiRab User Plane, %Y_%m_%d" (current-time)))
-  (insert (format-time-string "    //Kevin Tian: BEGIN, Step3 Start UP, eth configuration, %Y_%m_%d" (current-time)))
+;;  (insert (format-time-string "    //Kevin Tian: BEGIN, Step3 Start UP, eth configuration, %Y_%m_%d" (current-time)))
+  (insert (format-time-string "  //MR3821 Advanced Subscriber Group Handling, BEGIN, %Y_%m_%d" (current-time)))
   (insert (format-time-string "\n" (current-time)))
-  (insert (format-time-string "    //Kevin Tian: END\n" (current-time)))
+  (insert (format-time-string "  //MR3821, END\n" (current-time)))
 )
 
 ;;;;;;;;;;;;;;;;;;;;
